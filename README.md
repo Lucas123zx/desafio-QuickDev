@@ -6,17 +6,17 @@ Repositorio voltado a responder desafios da QuickDev na segunda fase do processo
 - [Cypress](https://www.cypress.io/) 
 - [Cucumber Preprocessor](https://github.com/badeball/cypress-cucumber-preprocessor)
 - [Multiple Cucumber HTML Reporter]("https://www.npmjs.com/package/multiple-cucumber-html-reporter")
-- [Concurrently]("https://www.npmjs.com/package/concurrently")
-- [Http-server]("https://www.npmjs.com/package/http-server")
-- [Kill-port]("https://www.npmjs.com/package/http-server")
-- [Cypress-xpath]("https://www.npmjs.com/package/cypress-xpath")
+- [Concurrently](https://www.npmjs.com/package/concurrently)
+- [Http-server](https://www.npmjs.com/package/http-server)
+- [Kill-port](https://www.npmjs.com/package/http-server)
+- [Cypress-xpath](https://www.npmjs.com/package/cypress-xpath)
 
 ---
 
 ### Pré-requisistos:
 1. Clonar Projeto `git clone git@github.com:Lucas123zx/desafio-QuickDev.git`
 2. Arquivos do desafio presente na raíz do projeto 
-3. execute o comando `npm install` no terminal da ide para baixa os pacotes node
+3. Execute o comando `npm install` no terminal da ide para baixa os pacotes node
   
 Dados do artefato a ser testado presenta no caminho
 
