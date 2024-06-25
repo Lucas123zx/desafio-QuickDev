@@ -5,7 +5,7 @@ Repositorio voltado a responder desafios da QuickDev na segunda fase do processo
 
 - [Cypress](https://www.cypress.io/) 
 - [Cucumber Preprocessor](https://github.com/badeball/cypress-cucumber-preprocessor)
-- [Multiple Cucumber HTML Reporter]("https://www.npmjs.com/package/multiple-cucumber-html-reporter")
+- [Multiple Cucumber HTML Reporter](https://www.npmjs.com/package/multiple-cucumber-html-reporter)
 - [Concurrently](https://www.npmjs.com/package/concurrently)
 - [Http-server](https://www.npmjs.com/package/http-server)
 - [Kill-port](https://www.npmjs.com/package/http-server)
