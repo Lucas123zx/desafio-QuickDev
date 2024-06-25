@@ -103,6 +103,10 @@ estrutura do projeto
         └── plugins (pasta de plugins)
         └── steps (pasta de passo e validações)
         └── util (pasta de aqruivos reulizados)
+      └── teste-pratico-qa (pasta que contem o desafio, atefatos e sccrehot do teste manual)
+      └── .cypress-cucumber-preprocessorrc.json (configuração do cucumber e relatórios)
+      └── cypress.config.js (configuração do cypress)
+      └── jsconfig.js (configuração do js para o cypress)
 
 ---
 

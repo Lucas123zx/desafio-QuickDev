@@ -1,8 +1,12 @@
 {
   "compilerOptions": {
-    "allowJs": true,
-    "baseUrl": "../node_modules",
-    "types": ["cypress"]
+    "allowJs": true,        // Permite a inclusão de arquivos JavaScript na compilação
+    "checkJs": true,        // Ativa a verificação de erros em arquivos JavaScript
+    "baseUrl": "../node_modules",  
+    "types": ["cypress"]    // Inclui definições para Cypress
   },
-  "include": ["**/*.*"]
+  "include": [
+    "**/*.js",            
+    "cypress/**/*.js"     
+  ]
 }
