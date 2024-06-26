@@ -1,8 +1,8 @@
 import ProductElements from "../components/singUpElements";
-import Product from "../utils/produtcs";
+import {ProductFactory} from "../utils/produtcs";
 import DateValidity from "../utils/dateValidity"; 
 
-const generateProducts = new Product();
+const randomProduct = ProductFactory.createRandomProduct();
 const dateValidity = new DateValidity(new Date("12-11-2021"));
 
 class ProdutcPage {
@@ -12,11 +12,11 @@ class ProdutcPage {
   }
 
   writeName() {
-    cy.get(ProductElements.inputNameProduct()).type(generateProducts.getName())
+    cy.get(ProductElements.inputNameProduct()).type(randomProduct.getName())
   }
 
   writePriceNegative() {
-    let price = generateProducts.getPrice();
+    let price = randomProduct.getPrice();
     let priceNegative = -price
     cy.get(ProductElements.inputPrice()).type(priceNegative.toString())
   }

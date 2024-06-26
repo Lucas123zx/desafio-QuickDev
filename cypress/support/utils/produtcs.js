@@ -2,10 +2,9 @@ const listProducts = ['Banana', 'Abacaxi', 'Maça', 'Limão', 'Laranaja', 'Tange
 
 class Product {
   
-  constructor() {
-    let selectProduct = Math.floor(Math.random() * listProducts.length);
-    this.name = listProducts[selectProduct];
-    this.price = Math.floor(Math.random() * 100);
+  constructor(name, price) {
+    this.name = name;
+    this.price = price;
   }
 
   getName() {
@@ -17,4 +16,14 @@ class Product {
   }
 }
 
-export default Product;
+class ProductFactory {
+  static createRandomProduct() {
+    const selectProduct = Math.floor(Math.random() * listProducts.length);
+    const name = listProducts[selectProduct];
+    const price = Math.floor(Math.random() * 100);
+    return new Product(name, price);
+  }
+}
+
+export default Product; 
+export {ProductFactory};
