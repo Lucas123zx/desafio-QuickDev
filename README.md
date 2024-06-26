@@ -113,16 +113,18 @@ estrutura do projeto
 ---
 
 ### Exemplo Aqruivo `cypress.env.json`
+
+**Observação** Substitua `[SEU_ENDERECO_IP]` pelo endereço IP do servidor na sua rede local.
 ```
   {
     "teste1": {
-      "baseUrl": "http://192.168.100.2:8080/teste-pratico-qa/teste-1.html"
+      "baseUrl": "http://[SEU_ENDERECO_IP]:8080/teste-pratico-qa/teste-1.html"
     },
     "teste2": {
-      "baseUrl": "http://192.168.100.2:8080/teste-pratico-qa/teste-2.html"
+      "baseUrl": "http://[SEU_ENDERECO_IP]:8080/teste-pratico-qa/teste-2.html"
     },
     "teste3": {
-      "baseUrl": "http://192.168.100.2:8080/teste-pratico-qa/teste-3.html"
+      "baseUrl": "http://[SEU_ENDERECO_IP]:8080/teste-pratico-qa/teste-3.html"
     }
   }
 ```
