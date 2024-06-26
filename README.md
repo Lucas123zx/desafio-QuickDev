@@ -17,8 +17,7 @@ Repositorio voltado a responder desafios da QuickDev na segunda fase do processo
 1. Clonar Projeto `git clone git@github.com:Lucas123zx/desafio-QuickDev.git`
 2. Arquivos do desafio presente na raíz do projeto 
 3. Execute o comando `npm install` no terminal da ide para baixa os pacotes node
-4. Criar arquivo `cypress.env.json` variavel de ambiente
-  
+     
 Dados do artefato a ser testado presenta no caminho
 
 /home/my-disc/my-project/desafio-QuickDev
