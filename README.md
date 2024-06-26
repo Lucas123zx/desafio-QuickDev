@@ -17,6 +17,7 @@ Repositorio voltado a responder desafios da QuickDev na segunda fase do processo
 1. Clonar Projeto `git clone git@github.com:Lucas123zx/desafio-QuickDev.git`
 2. Arquivos do desafio presente na raíz do projeto 
 3. Execute o comando `npm install` no terminal da ide para baixa os pacotes node
+4. Criar arquivo `cypress.env.json` variavel de ambiente
   
 Dados do artefato a ser testado presenta no caminho
 
@@ -106,7 +107,25 @@ estrutura do projeto
       └── teste-pratico-qa (pasta que contem o desafio, atefatos e sccrehot do teste manual)
       └── .cypress-cucumber-preprocessorrc.json (configuração do cucumber e relatórios)
       └── cypress.config.js (configuração do cypress)
+      └── cypress.env.json (configuração do cypress para variaveis de ambiente)
       └── jsconfig.js (configuração do js para o cypress)
+
+---
+
+### Exemplo Aqruivo `cypress.env.json`
+```
+  {
+    "teste1": {
+      "baseUrl": "http://192.168.100.2:port/teste-pratico-qa/teste-1.html"
+    },
+    "teste2": {
+      "baseUrl": "http://192.168.100.2:port/teste-pratico-qa/teste-2.html"
+    },
+    "teste3": {
+      "baseUrl": "http://192.168.100.2:port/teste-pratico-qa/teste-3.html"
+    }
+  }
+```
 
 ---
 

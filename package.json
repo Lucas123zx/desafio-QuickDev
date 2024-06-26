@@ -6,15 +6,15 @@
   "scripts": {
     "reporter": "node cypress/support/plugins/report.js",
     "test1": "concurrently \"http-server ./\" \"cypress open --env version=teste1\"",
-    "test1-run": "concurrently \"http-server ./\" \"cypress run --env version=teste1 && npm run reporter && npm run stop-http-server\"",
+    "test1-run": "concurrently \"http-server ./\" \"cypress run --env version=teste1 & npm run reporter && npm run stop-http-server\"",
     "test2": "concurrently \"http-server ./\" \"cypress open --env version=teste2\"",
-    "test2-run": "concurrently \"http-server ./\" \"cypress run --env version=teste2 && npm run reporter && npm run stop-http-server\"",
+    "test2-run": "concurrently \"http-server ./\" \"cypress run --env version=teste2 & npm run reporter && npm run stop-http-server\"",
     "test3": "concurrently \"http-server ./\" \"cypress open --env version=teste3\"",
-    "test3-run": "concurrently \"http-server ./\" \"cypress run --env version=teste3 && npm run reporter && npm run stop-http-server\"",
+    "test3-run": "concurrently \"http-server ./\" \"cypress run --env version=teste3 & npm run reporter && npm run stop-http-server\"",
     "stop-http-server": "kill-port --port 8080"
   },
   "keywords": [],
-  "author": "",
+  "author": "Lucas Rodrigues Barroso",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^8.2.2",
