@@ -1,6 +1,6 @@
 import ProductElements from "../components/singUpElements";
 import {ProductFactory} from "../utils/produtcs";
-import DateValidity from "../utils/dateValidity"; 
+import DateValidity from "../utils/produtcs"; 
 
 const randomProduct = ProductFactory.createRandomProduct();
 const dateValidity = new DateValidity(new Date("12-11-2021"));
