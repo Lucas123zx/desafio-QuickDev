@@ -66,7 +66,7 @@ Tela 3 - Resultado Obtido:
 1. ferramentas a serem utilizadas: 
 
 - framework cypress
-- cucumber preprocesso (sinxta Ghekin)
+- cucumber preprocesso (sinxta Gherkin)
 - report (relatório de testes)
 - servidor estático 
 - fechar porta do servidor
@@ -103,7 +103,7 @@ estrutura do projeto
         └── pages (pasta de ações)
         └── plugins (pasta de plugins)
         └── steps (pasta de passo e validações)
-        └── util (pasta de aqruivos reulizados)
+        └── util (pasta de aqruivos reutilizados)
       └── teste-pratico-qa (pasta que contem o desafio, atefatos e screenshots de testes manuais)
       └── .cypress-cucumber-preprocessorrc.json (configuração do cucumber e relatórios)
       └── cypress.config.js (configuração do cypress)
@@ -116,13 +116,13 @@ estrutura do projeto
 ```
   {
     "teste1": {
-      "baseUrl": "http://192.168.100.2:port/teste-pratico-qa/teste-1.html"
+      "baseUrl": "http://192.168.100.2:8080/teste-pratico-qa/teste-1.html"
     },
     "teste2": {
-      "baseUrl": "http://192.168.100.2:port/teste-pratico-qa/teste-2.html"
+      "baseUrl": "http://192.168.100.2:8080/teste-pratico-qa/teste-2.html"
     },
     "teste3": {
-      "baseUrl": "http://192.168.100.2:port/teste-pratico-qa/teste-3.html"
+      "baseUrl": "http://192.168.100.2:8080/teste-pratico-qa/teste-3.html"
     }
   }
 ```
