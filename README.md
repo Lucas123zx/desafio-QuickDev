@@ -8,7 +8,7 @@ Repositorio voltado a responder desafios da QuickDev na segunda fase do processo
 - [Multiple Cucumber HTML Reporter](https://www.npmjs.com/package/multiple-cucumber-html-reporter)
 - [Concurrently](https://www.npmjs.com/package/concurrently)
 - [Http-server](https://www.npmjs.com/package/http-server)
-- [Kill-port](https://www.npmjs.com/package/http-server)
+- [Kill-port](https://www.npmjs.com/package/kill-port)
 - [Cypress-xpath](https://www.npmjs.com/package/cypress-xpath)
 
 ---
