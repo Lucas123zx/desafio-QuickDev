@@ -115,6 +115,9 @@ estrutura do projeto
 ### Exemplo Aqruivo `cypress.env.json`
 
 **Observação** Substitua `[SEU_ENDERECO_IP]` pelo endereço IP do servidor na sua rede local.
+
+Execute o comando no terminal `ipconfig` copie e cole o endereço do IPv4 no `[SEU_ENDERECO_IP]`
+
 ```
   {
     "teste1": {
