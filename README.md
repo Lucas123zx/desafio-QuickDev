@@ -94,7 +94,7 @@ estrutura do projeto
 /home/my-disc/my-project/desafio-QuickDev
 
     └── cypress
-      └── e2e/feature  (pasta aonde ficara os funcionalidade a sere testadas)
+      └── e2e/feature  (pasta aonde ficara os funcionalidade a serem testadas)
       └── reports  (pasta aonde será armazenado os relatórios de teste - aparece toda vez que executa o teste no modo handless)
       └── screenshots (pasta de imagens salvas no momento do teste)
       └── support (pasta de configurações, commands, pages, plugins, steps, util, components)
@@ -104,10 +104,10 @@ estrutura do projeto
         └── plugins (pasta de plugins)
         └── steps (pasta de passo e validações)
         └── util (pasta de aqruivos reulizados)
-      └── teste-pratico-qa (pasta que contem o desafio, atefatos e sccrehot do teste manual)
+      └── teste-pratico-qa (pasta que contem o desafio, atefatos e screenshots de testes manuais)
       └── .cypress-cucumber-preprocessorrc.json (configuração do cucumber e relatórios)
       └── cypress.config.js (configuração do cypress)
-      └── cypress.env.json (configuração do cypress para variaveis de ambiente)
+      └── cypress.env.json (configuração do cypress de variaveis de ambiente)
       └── jsconfig.js (configuração do js para o cypress)
 
 ---
