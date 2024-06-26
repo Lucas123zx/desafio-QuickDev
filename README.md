@@ -112,7 +112,7 @@ estrutura do projeto
 
 ---
 
-### Exemplo Aqruivo `cypress.env.json`
+### Exemplo Arquivo `cypress.env.json`
 
 **Observação** Substitua `SEU_ENDERECO_IP` pelo endereço IP do servidor na sua rede local.
 
