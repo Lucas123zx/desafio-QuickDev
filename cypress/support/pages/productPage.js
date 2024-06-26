@@ -18,7 +18,7 @@ class ProdutcPage {
   writePriceNegative() {
     let price = generateProducts.getPrice();
     let priceNegative = -price
-    cy.get(ProductElements.inputPrice()).type(priceNegative)
+    cy.get(ProductElements.inputPrice()).type(priceNegative.toString())
   }
   
   writeValidity() {
