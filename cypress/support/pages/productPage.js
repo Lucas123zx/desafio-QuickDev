@@ -12,7 +12,7 @@ class ProdutcPage extends ProductFactory {
   }
 
   writePriceNegative() {
-    let price = ProductFactory.createRandomProduct().getPrice;
+    let price = ProductFactory.createRandomProduct().getPrice();
     let priceNegative = -price
     cy.get(ProductElements.inputPrice()).type(priceNegative.toString())
   }
