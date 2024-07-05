@@ -1,25 +1,24 @@
 import ProductElements from "../components/singUpElements";
 import ProductFactory from "../utils/generatePrducts";
 
-const randomProduct = ProductFactory.createRandomProduct();
-class ProdutcPage {
+class ProdutcPage extends ProductFactory {
 
   acessUrl() {
     cy.visit("/")
   }
 
   writeName() {
-    cy.get(ProductElements.inputNameProduct()).type(randomProduct.getName())
+    cy.get(ProductElements.inputNameProduct()).type(ProductFactory.createRandomProduct().getName())
   }
 
   writePriceNegative() {
-    let price = randomProduct.getPrice();
+    let price = ProductFactory.createRandomProduct().getPrice;
     let priceNegative = -price
     cy.get(ProductElements.inputPrice()).type(priceNegative.toString())
   }
   
   writeValidity() {
-    cy.get(ProductElements.inputValidity()).type(randomProduct.getValidity())
+    cy.get(ProductElements.inputValidity()).type(ProductFactory.createRandomProduct().getValidity())
   }
 
   clickToAdd() {
