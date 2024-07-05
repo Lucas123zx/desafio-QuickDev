@@ -1,10 +1,10 @@
 class ProductElements {
-  inputNameProduct = () => {return '#inputNome'}
-  inputPrice = () => {return '#inputPreco'}
-  inputValidity = () => {return '#inputValidade'}
-  buttonToAdd = () => {return 'button[type="submit"]'}
-  tableProducts = () => {return '#conteudoTabela'}
-  msgText = (text) => {return `//*[contains(text(), "${text}")]`}
+  inputNameProduct = function () {return '#inputNome'}
+  inputPrice = function () {return '#inputPreco'}
+  inputValidity = function () {return '#inputValidade'}
+  buttonToAdd = function () {return 'button[type="submit"]'}
+  tableProducts = function () {return '#conteudoTabela'}
+  msgText = function (text) {return `//*[contains(text(), "${text}")]`}
 }
 
 module.exports = new ProductElements();

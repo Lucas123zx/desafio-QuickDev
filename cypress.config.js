@@ -14,6 +14,7 @@ const setupNodeEvents = async (on, config) => {
   on(
     "file:preprocessor",
     createBundler({
+      // @ts-ignore
       plugins: [createEsbuildPlugin(config)],
     })
   );
@@ -22,7 +23,7 @@ const setupNodeEvents = async (on, config) => {
     if (results) {
       await afterRunHandler(config)
       fs.mkdirSync("cypress/reports/.run", { recursive: true });
-      fs.writeFile("cypress/reports/.run/results.json", JSON.stringify(results));
+      fs.writeFileSync("cypress/reports/.run/results.json", JSON.stringify(results));
     }
   });
 

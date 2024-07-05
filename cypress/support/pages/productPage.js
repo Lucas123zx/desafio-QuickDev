@@ -1,10 +1,7 @@
 import ProductElements from "../components/singUpElements";
-import {ProductFactory} from "../utils/produtcs";
-import DateValidity from "../utils/dateValidity"; 
+import ProductFactory from "../utils/generatePrducts";
 
 const randomProduct = ProductFactory.createRandomProduct();
-const dateValidity = new DateValidity(new Date("12-11-2021"));
-
 class ProdutcPage {
 
   acessUrl() {
@@ -22,7 +19,7 @@ class ProdutcPage {
   }
   
   writeValidity() {
-    cy.get(ProductElements.inputValidity()).type(dateValidity.generateDate().date)
+    cy.get(ProductElements.inputValidity()).type(randomProduct.getValidity())
   }
 
   clickToAdd() {

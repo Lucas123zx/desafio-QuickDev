@@ -15,7 +15,7 @@
 
 // Import commands.js using ES2015 syntax:
 import '../commands/commands'
-require('cypress-xpath');
+import 'cypress-xpath';
 
 Cypress.Screenshot.defaults({
   capture:'runner',
