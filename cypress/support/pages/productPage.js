@@ -1,11 +1,7 @@
 import ProductElements from "../components/singUpElements";
 import ProductFactory from "../utils/generatePrducts";
 
-class ProdutcPage extends ProductFactory {
-
-  acessUrl() {
-    cy.visit("/")
-  }
+class ProductPage extends ProductFactory {
 
   writeName() {
     cy.get(ProductElements.inputNameProduct()).type(ProductFactory.createRandomProduct().getName())
@@ -35,4 +31,4 @@ class ProdutcPage extends ProductFactory {
   
 }
 
-export default new ProdutcPage();
+export default new ProductPage();

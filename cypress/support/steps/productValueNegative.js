@@ -1,8 +1,11 @@
 import {Given, When, Then  } from "@badeball/cypress-cucumber-preprocessor";
+import BaseUrl from "../utils/acessUrl";
 import productPage from "../pages/productPage";
 
+const baseUrl = new BaseUrl(Cypress.env('baseUrl'));
+
 Given("que o usuario esteja na tela de cadastro de produto", () => {
-  productPage.acessUrl();
+  baseUrl.accesarUrl();
 });
 
 When("o usuario preencher os dados de cadastro do produto", () => {

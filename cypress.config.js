@@ -40,5 +40,6 @@ module.exports = defineConfig({
     viewportHeight: 1080,
     supportFile: "cypress/support/plugins/e2e.js",
     screenshotsFolder: "cypress/screenshots"
+    
   },
 });
